@@ -1,0 +1,4 @@
+{% if site.plausible %}
+<!-- Plausible Analytics -->
+<script defer data-domain="{{ site.plausible }}" src="{% if site.plausible_script_url %}{{ site.plausible_script_url }}{% else %}https://plausible.io/js/script.js{% endif %}"></script>
+{% endif %}
